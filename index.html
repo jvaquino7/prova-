@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-widht, intial-scale=1.0">
 	<title>Administre Seu Tempo</title>
 	<meta charset="utf-8">
 	<style>
@@ -67,6 +68,39 @@
     margin-top: 0;
     transition-delay: .1s;
     }
+    @media screen and (max-width: 980px){  
+        #pagewrap {
+            width: 94%;
+        }
+
+        #content {
+            width: 65%;
+        }
+        #sidebar {
+            width: 30%;
+        }
+    }
+     @media screen and (max-width: 700px){
+       #content {
+            width: auto;
+            float: none;
+        } 
+        #sidebar {
+            width: auto;
+            float: none;    
+        }
+     }
+     @media screen and (max-width: 480px){
+        #header{
+            height: auto;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        #sidebar {
+            display: none;   
+        }
+     }
 
 	</style>
 </head>
