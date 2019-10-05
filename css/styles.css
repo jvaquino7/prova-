@@ -32,4 +32,36 @@ header nav ul li:hover {
 	color: #000;
 	padding: 10px;
 }
+@media screen and (max-width: 980px){  
+        #pagewrap {
+            width: 94%;
+        }
 
+        #content {
+            width: 65%;
+        }
+        #sidebar {
+            width: 30%;
+        }
+    }
+     @media screen and (max-width: 700px){
+       #content {
+            width: auto;
+            float: none;
+        } 
+        #sidebar {
+            width: auto;
+            float: none;    
+        }
+     }
+     @media screen and (max-width: 480px){
+        #header{
+            height: auto;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        #sidebar {
+            display: none;   
+        }
+     }
